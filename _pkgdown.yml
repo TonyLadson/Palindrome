@@ -1,4 +1,12 @@
 url: https://tonyladson.github.io/Palindrome/
 template:
   bootstrap: 5
+  bootswatch: journal
+navbar:
+  bg: primary
+  type: light
+  structure:
+    left:  [intro, article, reference]
+    right: [search]
+
 
