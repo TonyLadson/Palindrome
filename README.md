@@ -11,10 +11,21 @@ palindromic through a process of reversing and adding.
 
 Choose a number
 
-*If it’s a palindrome, then stop *If not, reverse the number and add to
-the original number \*Go to step 2.
+1.  If it’s a palindrome, then stop
+2.  If not, reverse the number and add to the original number
+3.  Go to step 2.
 
 For example: 12 + 21 = 33
+
+Most numbers become palindromes quite quickly but some take a while, for
+example, the numbers 89 and 98 take 24 iterations. No one has yet made
+196 palindromic using this procedure despite years of reversing and
+adding. There are a couple of web sites that have way-more information
+about this than you’d probably care to know: [196 Palindrome
+Quest](http://jasondoucette.com/worldrecords.html#196) and
+[p196](http://www.p196.org/). A number that cannot be made into a
+palindrome by the process of reversing and adding is referred to a
+[Lychrel](https://en.wikipedia.org/wiki/Lychrel_number%20number).
 
 More information
 [here](https://tonyladson.wordpress.com/2013/03/14/palindrome-numbers/)
@@ -26,7 +37,7 @@ install the latest version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("TonyLadson/ARLpackage")
+remotes::install_github("TonyLadson/Palindrome")
 ```
 
 ## Take it for a spin
