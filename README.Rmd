@@ -1,0 +1,56 @@
+---
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  warnings = FALSE, 
+  messages = FALSE, 
+  prompt = FALSE,
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ARL_package
+
+This package contains a single function: Make_palindrome.  A palindrome number is the same when read forward or backward e.g. 121.  
+
+One obscure mathematical recreation is to make non-palindrome numbers palindromic through a process of reversing and adding.
+
+Choose a number
+
+*If it’s a palindrome, then stop
+*If not, reverse the number and add to the original number
+*Go to step 2.
+
+For example: 12 + 21 = 33
+
+More information [here](https://tonyladson.wordpress.com/2013/03/14/palindrome-numbers/)
+
+
+## First things first
+
+`Make_palindrome` is a toy project and is still under development. You can install the latest version from [GitHub](https://github.com/) with:
+
+```{r, install, results = "hide", eval = FALSE}
+# install.packages("remotes")
+remotes::install_github("TonyLadson/ARLpackage")
+```
+
+## Take it for a spin
+
+Try Make_palindrome(89)
+
+```{r example}
+library(ARLpackage)
+ 
+Make_palindrome(89)
+```
+
