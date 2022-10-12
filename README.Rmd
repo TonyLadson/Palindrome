@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# ARL_package
+# Palindrome
 
 This package contains a single function: Make_palindrome.  A palindrome number is the same when read forward or backward e.g. 121.  
 
@@ -37,7 +37,7 @@ More information [here](https://tonyladson.wordpress.com/2013/03/14/palindrome-n
 
 ## First things first
 
-`Make_palindrome` is a toy project and is still under development. You can install the latest version from [GitHub](https://github.com/) with:
+`Palindrome` is a toy project and is still under development. You can install the latest version from [GitHub](https://github.com/) with:
 
 ```{r, install, results = "hide", eval = FALSE}
 # install.packages("remotes")
@@ -49,7 +49,7 @@ remotes::install_github("TonyLadson/ARLpackage")
 Try Make_palindrome(89)
 
 ```{r example}
-library(ARLpackage)
+library(Palindrome)
  
 Make_palindrome(89)
 ```
