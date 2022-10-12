@@ -18,10 +18,10 @@ knitr::opts_chunk$set(
 )
 ```
 
-<!-- badges: start -->
-  [![Codecov test coverage](https://codecov.io/gh/TonyLadson/Palindrome/branch/main/graph/badge.svg)](https://app.codecov.io/gh/TonyLadson/Palindrome?branch=main)
-  <!-- badges: end -->
 
+  [![Codecov test coverage](https://codecov.io/gh/TonyLadson/Palindrome/branch/main/graph/badge.svg)](https://app.codecov.io/gh/TonyLadson/Palindrome?branch=main)
+  
+  
 # Palindrome
 
 This package contains a single function: Make_palindrome.  A palindrome number is the same when read forward or backward e.g. 121.  

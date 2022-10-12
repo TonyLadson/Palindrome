@@ -1,6 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+[![Codecov test
+coverage](https://codecov.io/gh/TonyLadson/Palindrome/branch/main/graph/badge.svg)](https://app.codecov.io/gh/TonyLadson/Palindrome?branch=main)
+
 # Palindrome
 
 This package contains a single function: Make_palindrome. A palindrome
