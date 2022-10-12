@@ -1,0 +1,10 @@
+pandoc: 2.14.2
+pkgdown: 2.0.6
+pkgdown_sha: ~
+articles:
+  ARLpackage: ARLpackage.html
+last_built: 2022-10-12T04:32Z
+urls:
+  reference: https://tonyladson.github.io/Palindrome/reference
+  article: https://tonyladson.github.io/Palindrome/articles
+
