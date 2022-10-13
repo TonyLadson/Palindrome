@@ -16,7 +16,7 @@ Choose a number
 
 1.  If it’s a palindrome, then stop
 2.  If not, reverse the number and add to the original number
-3.  Go to step 2.
+3.  Go to step 1.
 
 For example: 12 + 21 = 33
 
